@@ -1,0 +1,16 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="col-xs-12 col-md-6 col-md-offset-3 core-game">
+      <div class="form-group">
+        <h4>Please enter your name</h4>
+      </div>
+      <form action="/game" method="get">
+        <div class="form-group">
+          <input type="question" class="form-control text-center" name="username" id="attempt" placeholder="your name">
+          <input type="hidden" class="form-control" name="number_of_games" value="<%= 0 %>">
+        </div>
+        <button type="submit" class="btn btn-danger">Start playing</button>
+      </form>
+    </div>
+  </div>
+</div>
